@@ -1,18 +1,70 @@
 
-body{margin:0}
+body{margin:0;
+    text-align:center;
+    font-family:sans-serif,helvetica,Arial, Helvetica,'sacramento';
+}
 
-h1{margin-top: 0;}
+h1{font-family: 'sacramento';
+    font-size: 4rem;
+    margin-bottom: 1rem;}
+
+.my_title{
+    font-size: 1.5rem;
+}
 
 .top_container{background-color:#E4F9F5;
+    position:relative;
+    padding-top: 100px;
     
 }
 
-.middle_container{background-color: red;
-width: 200px;
-height: 200px;
+.middle_container{
+
 }
 
-.botton_container{background-color: blue;
-    width: 200px;
-    height: 200px;
-    }
+.botton_container{
+}
+
+.top_cloud{
+    position: absolute;
+    right: 300px;
+    margin-top: 0px;
+}
+
+.botton_cloud{
+    position: absolute;
+    left: 300px;
+    margin-top: 0px;
+}
+
+hr{background-color: white;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #6096b4;
+    border-width: 5px;
+    height: 0px;
+    width: 5%;}
+
+.profile{
+    color:#11999E;
+}
+
+.profile_int{
+    color: black;
+}
+
+.skills{
+    color:#11999E;
+}
+
+.skills_int{
+    color: black;
+}
+
+
+.my_photo_1{height: 150px;
+    width: 150px;
+    border-radius: 50%;}
+
+.my_photo_2{height: 150px;
+        width: 150px;}
