@@ -6,23 +6,45 @@ body{margin:0;
 
 h1{font-family: 'sacramento';
     font-size: 4rem;
-    margin-bottom: 1rem;}
+    margin-bottom: 1rem;
+    color: #66bfbf;}
+
+h2{color: #11999E;
+    font-weight: normal;
+font-size: 4rem;}
+
+h3{color: #66bfbf;
+    font-size: 2rem;}
 
 .my_title{
     font-size: 1.5rem;
 }
 
+.mountain{
+    height: 200px;
+    width: 400px;
+}
+
 .top_container{background-color:#E4F9F5;
     position:relative;
     padding-top: 100px;
-    
 }
 
 .middle_container{
-
+    
 }
 
 .botton_container{
+    padding-top: 30px;
+    background-color: #66bfbf;
+}
+
+
+.skills{
+    width: 50%;
+    margin: 0px auto 0px auto;
+    text-align: left;
+    line-height: 2;
 }
 
 .top_cloud{
@@ -35,6 +57,7 @@ h1{font-family: 'sacramento';
     position: absolute;
     left: 300px;
     margin-top: 0px;
+    text-align: center;
 }
 
 hr{background-color: white;
@@ -45,26 +68,50 @@ hr{background-color: white;
     height: 0px;
     width: 5%;}
 
-.profile{
-    color:#11999E;
-}
-
-.profile_int{
-    color: black;
-}
-
-.skills{
-    color:#11999E;
-}
-
-.skills_int{
-    color: black;
-}
-
-
 .my_photo_1{height: 150px;
     width: 150px;
-    border-radius: 50%;}
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+    }
 
 .my_photo_2{height: 150px;
-        width: 150px;}
+        width: 150px;
+        float: right;
+        margin-left: 30px;
+        }
+
+.my_photo_3{height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            float: left;
+            margin-right: 30px;
+            }
+
+.my_photo_4{height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    float: right;
+    margin-left: 30px;
+    }
+
+.touch{
+    color: #11999E;
+    margin: 10px;
+}
+
+.contact{
+    color: #11999E;
+    font-size: 2rem;
+    margin: 10px;
+}
+
+.contact:hover{
+    color: #EAf6f6;
+    font-size: 2.1rem;
+}
+
+.credits{
+    color: #EAf6f6;
+}
+    
