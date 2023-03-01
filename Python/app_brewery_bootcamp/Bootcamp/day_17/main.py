@@ -6,6 +6,7 @@ class User:
         self.following=0
 
     def follow(self,user):
+#beeing user the one we folow and self our own user.
         user.followers+=1
         self.following+=1
 
