@@ -8,7 +8,7 @@ my_turtle.shape("turtle")
 my_turtle.color("blue")
 
 
-for i in range(100):
+for i in range(25):
 
     my_turtle.forward(10)
     my_turtle.penup()
