@@ -26,6 +26,7 @@ body{
     display: grid;
     grid-template-rows: auto 1fr auto;
     width: 300px;
+    place-items: center;
 }
 
 .logo{
@@ -48,37 +49,41 @@ body{
     margin-top: 0;
 }
 
-.lable{
-    font-size: var(--sm);
-    font-weight: bold;
-    margin-bottom: 4px;
-}
-
-input{
-    background-color: var(--very-light-pink);
-    border: none;
-    border-radius: 8px;
-    height: 32;
-    font-size: var(--md);
-    padding: 6px;
-    margin-bottom: 12px;
-}
-
-.form{
+.email_image{
+    width: 132px;
+    height: 132px;
+    border-radius: 50%;
+    background-color: rgb(246, 243, 243);
     display: flex;
-    flex-direction: column;
-
+    justify-content: center;
+    align-items: center;
 }
 
-.primary_button{
-    background: var(--hospital-green);
+
+.button_1{
+    background: #ACD9B2;
     border-radius: 8px;
     border: none;
-    color: var(--white);
+    color: white;
     margin-top: 24px;
     width: 100%;
     cursor: pointer;
     font-size: var(--md);
     font-weight: bold;
     height: 40px;
+}
+
+p{
+    text-align: center;
+}
+
+.resent{
+    font-size: var(--sm);
+
+}
+
+a{
+    color: #ACD9B2;
+    text-decoration: none;
+    font-weight: bold;
 }

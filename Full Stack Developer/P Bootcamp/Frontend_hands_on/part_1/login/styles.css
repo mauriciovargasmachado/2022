@@ -34,21 +34,13 @@ body{
     justify-self: center;
 }
 
-.title{
-    font-size: var(--sm);
-    margin-bottom: 12px;
-    text-align: center;
+.form{
+    display: flex;
+    flex-direction: column;
+
 }
 
-.subtitle{
-    color: var(--very-light-pink);
-    font-size: var(--md);
-    font-weight: 300;
-    margin-bottom:30;
-    margin-top: 0;
-}
-
-.lable{
+.label{
     font-size: var(--sm);
     font-weight: bold;
     margin-bottom: 4px;
@@ -64,10 +56,8 @@ input{
     margin-bottom: 12px;
 }
 
-.form{
-    display: flex;
-    flex-direction: column;
-
+#email{
+    margin-bottom: 15px;
 }
 
 .primary_button{
@@ -81,4 +71,26 @@ input{
     font-size: var(--md);
     font-weight: bold;
     height: 40px;
+}
+.secundary_button{
+    
+    background: var(--white);
+    border-radius: 8px;
+    border: 1px solid ;
+    border-color: var(--hospital-green);
+    color: var(--hospital-green);
+    margin-top: 24px;
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    height: 40px;
+}
+
+a{
+    color: var(--hospital-green);
+    font-size: var(--sm);
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
 }

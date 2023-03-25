@@ -28,30 +28,27 @@ body{
     width: 300px;
 }
 
-.logo{
-    width: 150px;
-    margin-bottom: 50px;
-    justify-self: center;
+
+.form{
+    display: flex;
+    flex-direction: column;
+
 }
 
 .title{
-    font-size: var(--sm);
-    margin-bottom: 12px;
-    text-align: center;
+    margin-bottom: 70px;
+    text-align: left;
 }
 
-.subtitle{
-    color: var(--very-light-pink);
-    font-size: var(--md);
-    font-weight: 300;
-    margin-bottom:30;
-    margin-top: 0;
-}
-
-.lable{
+.label{
     font-size: var(--sm);
     font-weight: bold;
     margin-bottom: 4px;
+    font-weight: bold;
+}
+
+.name, .email, .password{
+    margin-bottom: 25px;
 }
 
 input{
@@ -62,12 +59,6 @@ input{
     font-size: var(--md);
     padding: 6px;
     margin-bottom: 12px;
-}
-
-.form{
-    display: flex;
-    flex-direction: column;
-
 }
 
 .primary_button{
@@ -81,4 +72,18 @@ input{
     font-size: var(--md);
     font-weight: bold;
     height: 40px;
+}
+
+.primary_button{
+    margin-top: 50px;
+}
+
+@media(max-with:640px){
+    .form_container{
+        height: 100%;
+    }
+    .form{
+        height: 100%;
+        justify-content: space-between;
+    }
 }
