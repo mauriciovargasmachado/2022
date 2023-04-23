@@ -1,1 +1,2 @@
-alert('this is me!')
+
+const h1 = document.querySelector('h1')
