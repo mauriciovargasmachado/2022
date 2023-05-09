@@ -6,11 +6,11 @@ public class Main {
 
         double Nota_1,Nota_2,Nota_3;
 
-        System.out.println("Please the grade of your first test: ");
+        System.out.println("Please insert the grade of your first test: ");
         double nota_1  = Intro.nextDouble();
-        System.out.println("Please the grade of your second test: ");
+        System.out.println("Please the insert grade of your second test: ");
         double nota_2  = Intro.nextDouble();
-        System.out.println("Please the grade of your third test: ");
+        System.out.println("Please the  insert grade of your third test: ");
         double nota_3  = Intro.nextDouble();
 
         double result  = (nota_1+nota_2+nota_3)/3;

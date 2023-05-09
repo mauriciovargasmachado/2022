@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java 2022.iml" filepath="$PROJECT_DIR$/.idea/Java 2022.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UDLA/UDLA.iml" filepath="$PROJECT_DIR$/UDLA/UDLA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UDLA/Week_1/Week_1.iml" filepath="$PROJECT_DIR$/UDLA/Week_1/Week_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data_type/data_type.iml" filepath="$PROJECT_DIR$/data_type/data_type.iml" />
+      <module fileurl="file://$PROJECT_DIR$/first_java_application/first_java_application.iml" filepath="$PROJECT_DIR$/first_java_application/first_java_application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reference_type/reference_type.iml" filepath="$PROJECT_DIR$/reference_type/reference_type.iml" />
+    </modules>
+  </component>
+</project>
